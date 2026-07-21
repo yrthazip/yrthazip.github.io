@@ -37,8 +37,7 @@ body{
     /* 3. Scale the image to cover the full viewport */
     background-size: cover; 
 
-    /* 4. Center the image horizontally and vertically */
-    background-position: center; 
+
 }
 
 
