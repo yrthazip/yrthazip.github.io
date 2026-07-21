@@ -1,6 +1,6 @@
 /* ---------- tokens ---------- */
 :root{
-  --paper: hsl(0, 0%, 13%);
+  --paper: #3c4142;
   --paper-deep: #EFE4D2;
   --ink:#0A2342;
   --ink-soft: #5C5347;
@@ -19,22 +19,14 @@
 html{ scroll-behavior: smooth; }
 
 body{
-  margin:0;
+ margin:0;
+  background: var(--paper);
   color: var(--ink);
   font-family: var(--sans);
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
-
-    /* 1. Link your image file path or URL */
-    background-image: url('835628905887557343.jpg'); 
-
-    /* 2. Prevent the image from tiling/repeating */
-    background-repeat: no-repeat; 
-
-    /* 3. Scale the image to cover the full viewport */
-    background-size: cover; 
-
 }
+
 
 a{ color: inherit; }
 
@@ -42,10 +34,12 @@ a{ color: inherit; }
 
 /* subtle paper grain, no external image, pure CSS noise via gradient */
 .grain{
- background-image: url('835628905887557343.jpg') !important;
-    background-size: cover !important;
-    background-position: center !important;
-
+ position: fixed; inset: 0; pointer-events: none; z-index: 0;
+  background-image:
+    radial-gradient(var(--paper-deep) 0.5px, transparent 0.5px);
+  background-size: 3px 3px;
+  opacity: 0.35;
+  mix-blend-mode: multiply;
 }
 
 main, header, footer{ position: relative; z-index: 1; }
