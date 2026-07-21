@@ -29,7 +29,7 @@ body{
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
    /* 1. Link your image file path or URL */
-    background-image: url('1784653906095.jpeg'); 
+    background-image: url('1784653906095-Photoroom.png'); 
 
     /* 2. Prevent the image from tiling/repeating */
     background-repeat: no-repeat; 
@@ -54,7 +54,7 @@ a{ color: inherit; }
   background-size: 3px 3px;
   opacity: 0.35;
   mix-blend-mode: multiply;
-   background-image: url('1784653906095.jpeg') !important;
+   background-image: url('1784653906095-Photoroom.png') !important;
     background-size: cover !important;
     background-position: center !important;
 }
