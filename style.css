@@ -20,12 +20,11 @@ html{ scroll-behavior: smooth; }
 
 body{
   margin:0;
-  background: var(--paper);
   color: var(--ink);
   font-family: var(--sans);
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
-  
+
     /* 1. Link your image file path or URL */
     background-image: url('662592163966083572.jpg'); 
 
