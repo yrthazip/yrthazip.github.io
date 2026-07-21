@@ -1,17 +1,20 @@
 /* ---------- tokens ---------- */
 :root{
-  --paper: #3c4142;
-  --paper-deep: #EFE4D2;
-  --ink:#0A2342;
-  --ink-soft: #0077b3;
-  --brick: #A8502C;
+  --paper: #162301e2;
+  --paper-deep: #1e2903;
+  --paper-deep1:  #373d0088;
+  --ink:#ebc1ef;
+  --ink-soft: #90a4ad;
+  --brick: #fcffff;
   --brick-deep: #8A3F22;
-  --sage: #f53022;
+  --sage: #e8cf10;
   --line: #DCCDB2;
   --radius: 3px;
   --serif: 'Fraunces', serif;
   --sans: 'Karla', sans-serif;
   --mono: 'JetBrains Mono', monospace;
+  --ktm: #ffcb52;
+/**#0b321f;**/
 }
 
 *{ box-sizing: border-box; }
@@ -79,7 +82,7 @@ nav a:hover, nav a:focus-visible{
   font-size: 0.8rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--sage);
+  color: var(--ktm);
   margin: 0 0 18px;
 }
 .hero h1{
@@ -101,7 +104,7 @@ nav a:hover, nav a:focus-visible{
   font-family: var(--mono);
   font-size: 0.82rem;
   color: var(--ink-soft);
-  background: var(--paper-deep);
+  background: var(--paper-deep1);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 10px 16px;
