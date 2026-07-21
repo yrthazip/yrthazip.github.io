@@ -47,7 +47,7 @@ a{ color: inherit; }
 
 /* subtle paper grain, no external image, pure CSS noise via gradient */
 .grain{
- background-image: url(''662592163966083572.jpg') !important;
+ background-image: url('662592163966083572.jpg') !important;
     background-size: cover !important;
     background-position: center !important;
     background-attachment: fixed !important;
