@@ -47,12 +47,11 @@ a{ color: inherit; }
 
 /* subtle paper grain, no external image, pure CSS noise via gradient */
 .grain{
-  position: fixed; inset: 0; pointer-events: none; z-index: 0;
-  background-image:
-    radial-gradient(var(--paper-deep) 0.5px, transparent 0.5px);
-  background-size: 3px 3px;
-  opacity: 0.35;
-  mix-blend-mode: multiply;
+ background-image: url(''662592163966083572.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+
 }
 
 main, header, footer{ position: relative; z-index: 1; }
