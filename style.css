@@ -26,7 +26,7 @@ body{
   -webkit-font-smoothing: antialiased;
 
     /* 1. Link your image file path or URL */
-    background-image: url('662592163966083572.jpg'); 
+    background-image: url('1001488035900792552.jpg'); 
 
     /* 2. Prevent the image from tiling/repeating */
     background-repeat: no-repeat; 
@@ -34,11 +34,6 @@ body{
     /* 3. Scale the image to cover the full viewport */
     background-size: cover; 
 
-    /* 4. Center the image horizontally and vertically */
-    background-position: center; 
-
-    /* 5. Keep the image fixed in place while scrolling */
-    background-attachment: fixed; 
 }
 
 a{ color: inherit; }
@@ -47,10 +42,9 @@ a{ color: inherit; }
 
 /* subtle paper grain, no external image, pure CSS noise via gradient */
 .grain{
- background-image: url('662592163966083572.jpg') !important;
+ background-image: url('1001488035900792552.jpg') !important;
     background-size: cover !important;
     background-position: center !important;
-    background-attachment: fixed !important;
 
 }
 
