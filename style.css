@@ -43,6 +43,9 @@ a{ color: inherit; }
   background-size: 3px 3px;
   opacity: 0.35;
   mix-blend-mode: multiply;
+   background-image: url('1784653906095.jpeg') !important;
+    background-size: cover !important;
+    background-position: center !important;
 }
 
 main, header, footer{ position: relative; z-index: 1; }
