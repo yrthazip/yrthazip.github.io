@@ -25,6 +25,21 @@ body{
   font-family: var(--sans);
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
+  
+    /* 1. Link your image file path or URL */
+    background-image: url('662592163966083572.jpg'); 
+
+    /* 2. Prevent the image from tiling/repeating */
+    background-repeat: no-repeat; 
+
+    /* 3. Scale the image to cover the full viewport */
+    background-size: cover; 
+
+    /* 4. Center the image horizontally and vertically */
+    background-position: center; 
+
+    /* 5. Keep the image fixed in place while scrolling */
+    background-attachment: fixed; 
 }
 
 a{ color: inherit; }
